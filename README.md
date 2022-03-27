@@ -9,6 +9,11 @@
 4. 代码可编译加密，可放心地打包发布桌面应用。
 5. 绿色环保，没有依赖，无需安装，省心省力。
 
+#### 开发方式：
+1. 下载melonbox.zip并解压
+2. 编辑app.js
+3. 执行melonbox.exe启动demo
+
 #### app.js为应用入口文件，开发请参考：
 https://github.com/caixiaogua/jsgo
 
