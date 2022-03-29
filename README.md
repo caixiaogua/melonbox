@@ -14,6 +14,8 @@
 2. 编辑app.js
 3. 执行melonbox.exe启动demo
 
+#### 欢迎加入QQ群：739721147
+
 #### app.js为应用入口文件，开发请参考：
 https://github.com/caixiaogua/jsgo
 
