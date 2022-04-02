@@ -19,7 +19,11 @@
 #### app.js为应用入口文件，开发请参考：
 https://github.com/caixiaogua/jsgo
 
-#### 可编译app.js为app.so
+#### 可编译app.js为app.sox
 ```
-jsgo build app.js
+jsgo buildx app.js
+```
+#### 可打包静态资源文件夹，例如打包css文件夹，生成css.pkg文件（详细使用说明请参考jsgo6.1更新日志）
+```
+jsgo pack css
 ```
