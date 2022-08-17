@@ -7,6 +7,7 @@
 2. 使用C#编写扩展类，并编译为DLL
 3. 前端js可以通过netApi调用扩展功能
 4. 请参考demo中的范例，编译命令为“csc.exe /t:libray net.cs”
+5. UI基于微软webview2，稳定可靠，支持最新html5特性。
 
 ### melonbox-plus说明：
 1. 基于chrome内核，支持所有最新的html5特性。
