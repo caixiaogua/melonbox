@@ -2,7 +2,13 @@
 
 ### 用于创建基于html5的桌面应用，类似于electron
 
-### melonbox特点：
+### melonbox-lite说明：
+1. 基于.net framework4.0以上环境
+2. 使用C#编写扩展类，并编译为DLL
+3. 前端js可以通过netApi调用扩展功能
+4. 请参考demo中的范例，编译命令为“csc.exe /t:libray net.cs”
+
+### melonbox-plus说明：
 1. 基于chrome内核，支持所有最新的html5特性。
 2. 基于jsgo，丰富的系统api接口，轻松愉快的开发体验。
 3. 内建go语言jit，可使用js和go进行混合开发。
