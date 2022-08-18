@@ -2,6 +2,10 @@
 
 ### 用于创建基于html5的桌面应用，类似于electron
 
+### melonbox-lite-pro说明：
+1. 配备了方便易用的nodejs服务框架，自带mysql支持，无需配置，开箱即用。
+2. 也可以使用自己的服务端程序，在入口文件中使用netApi.server(...)启动。
+
 ### melonbox-lite说明：
 1. 基于.net framework4.0以上环境
 2. 使用C#编写扩展类，并编译为DLL
