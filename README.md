@@ -3,12 +3,9 @@
 ### 用于创建基于html5的桌面应用，类似于electron
 
 ### melonbox-lite说明：
-1. 基于.net framework4.0以上环境
-2. 使用C#编写扩展类，并编译为DLL
-3. 前端js可以通过netApi调用扩展功能
-4. 请参考demo中的范例，编译命令为“csc.exe /t:library net.cs”
-5. UI基于微软webview2，稳定可靠，支持最新html5特性。
-6. 内置本地文件读写，内置支持mysql和sqlite数据库操作。
+1. UI基于微软webview2，稳定可靠，支持最新html5特性。
+2. 内置本地文件读写，内置支持mysql和sqlite数据库操作。
+3. 如需调用C#编译的DLL，需要.net4.0以上环境，编译命令为“csc.exe /t:library net.cs”
 
 ### melonbox-plus说明：
 1. 基于chrome内核，支持所有最新的html5特性。
