@@ -1,11 +1,12 @@
 # melonbox（原melonUI）
 
-### 用于创建基于html5的桌面应用，类似于electron
+### 用于创建基于html5的桌面应用，类似于electron，但是体积更小巧，打包应用不到10兆，支持win7系统。
 
 ### melonbox-lite说明：
 1. UI基于微软webview2，稳定可靠，支持最新html5特性。
 2. 内置本地文件读写，内置支持mysql和sqlite数据库操作。
 3. 如需调用C#编译的DLL，需要.net4.0以上环境，编译命令为“csc.exe /t:library net.cs”
+4. 可集成其它后台服务程序，如nodejs，或go开发的后台程序。
 
 ### melonbox-plus说明：
 1. 基于chrome内核，支持所有最新的html5特性。
