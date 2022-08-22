@@ -5,6 +5,7 @@
 ### melonbox-pro说明：
 1. 去除了对.net framework的依赖。
 2. 内置nodejs，与nodejs完美融合。
+3. 自带mysql和sqlite支持。
 
 ### melonbox-lite说明：
 1. UI基于微软webview2，稳定可靠，支持最新html5特性。
