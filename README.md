@@ -6,6 +6,20 @@
 1. 去除了对.net framework的依赖。
 2. 内置nodejs，与nodejs完美融合。
 3. 自带mysql和sqlite支持。
+```
+//去除窗口的标题和无最大最小化按钮
+xcall(`setWinMode(10)`);
+//自动最大化
+xcall(`setWinMode(2)`);
+//进入全屏
+xcall(`setWinMode(3)`);
+//设置窗口标题
+setTitle("标题");
+//单独禁用最小化按钮
+xcall(`setMinBtn(false)`);
+//单独禁用最大化按钮
+xcall(`setMaxBtn(false)`);
+```
 
 ### melonbox-lite说明：
 1. UI基于微软webview2，稳定可靠，支持最新html5特性。
