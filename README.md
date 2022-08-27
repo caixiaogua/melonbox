@@ -7,7 +7,7 @@
 2. 内置nodejs，与nodejs完美融合。
 3. 自带mysql和sqlite支持。
 ```
-//去除窗口的标题和无最大最小化按钮
+//去除窗口的标题和最大最小化按钮
 xcall(`setWinMode(10)`);
 //自动最大化
 xcall(`setWinMode(2)`);
