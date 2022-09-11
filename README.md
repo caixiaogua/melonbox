@@ -2,6 +2,11 @@
 
 ### 用于创建基于html5的桌面应用，类似于electron，但是体积更小巧，打包应用不到10兆，支持win7系统。
 
+### melonbox-max说明：
+1. 更丰富更强大的api接口函数。
+2. 可以在html中执行go语言代码。
+3. 具体请参考：https://github.com/caixiaogua/jsgo
+
 ### melonbox-pro说明：
 1. 去除了对.net framework的依赖。
 2. 内置nodejs，与nodejs完美融合。
