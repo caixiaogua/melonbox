@@ -46,10 +46,10 @@ https://github.com/caixiaogua/jsgo
 
 #### 可编译app.js为app.sox
 ```
-jsgocore buildx app.js
+jsgo buildx app.js
 ```
 #### 可打包静态资源文件夹（详细使用说明请参考jsgo6.1更新日志）
 ```
 //例如打包css文件夹，生成css.pkg文件
-jsgocore pack css
+jsgo pack css
 ```
