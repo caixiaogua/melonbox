@@ -6,6 +6,16 @@
 1. 更丰富更强大的api接口函数。
 2. 可以在html中执行go语言代码。
 3. 具体请参考：https://github.com/caixiaogua/jsgo
+```
+//调用go语言范例：
+//index.html
+<script>
+jsgo(function(){
+  let res=api.goRun(`string(ioutil.ReadFile("package.json"))`); //使用go语言读取文件内容
+  return res;
+}).then(res=>console.log(res));
+</script>
+```
 
 ### melonbox-pro说明：
 1. 去除了对.net framework的依赖。
