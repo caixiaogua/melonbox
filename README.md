@@ -13,7 +13,10 @@
 jsgo(function(){
   let res=api.goRun(`string(ioutil.ReadFile("package.json"))`); //使用go语言读取文件内容
   return res;
-}).then(res=>console.log(res));
+}).then(res=>{
+	console.log(res);
+	alert(JSON.stringify(res));
+});
 </script>
 ```
 
