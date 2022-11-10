@@ -32,7 +32,7 @@ xcall(`setWinMode(2)`);
 //进入全屏
 xcall(`setWinMode(3)`);
 //设置窗口标题
-setTitle("标题");
+xcall(`setTitle("标题")`);
 //单独禁用最小化按钮
 xcall(`setMinBtn(false)`);
 //单独禁用最大化按钮
