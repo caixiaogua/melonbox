@@ -28,6 +28,8 @@ jsgo(function(){
 3. 自带mysql和sqlite支持。
 
 ```
+<h4 id="h4div"></h4>
+<script>
 nodejs(async function(){
     let os=require("os");
     let net=os.networkInterfaces();
@@ -35,7 +37,9 @@ nodejs(async function(){
     return {"网卡":net,"处理器":cpu};
 }).then(res=>{
     console.log("res", res);
+    h4div.innerHTML=JSON.stringify(res);
 });
+</script>
 ```
 ```
 //去除窗口标题和最大最小化按钮
