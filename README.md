@@ -2,7 +2,7 @@
 
 ### 用于创建基于html5的桌面应用，类似于electron，但是体积更小巧，打包应用不到10兆，支持win7系统。
 
-#### 部分电脑需要手动安装webview2：https://github.com/caixiaogua/melonbox/releases
+#### 下载使用：https://github.com/caixiaogua/melonbox/releases
 
 ### melonbox-max说明：
 1. 更丰富更强大的api接口函数。
