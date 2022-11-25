@@ -28,6 +28,7 @@ jsgo(function(){
 3. 自带mysql和sqlite支持。
 
 ```
+//index.html
 <h4 id="h4div"></h4>
 <script>
 nodejs(async function(){
