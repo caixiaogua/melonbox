@@ -26,6 +26,17 @@ jsgo(function(){
 1. 去除了对.net framework的依赖。
 2. 内置nodejs，与nodejs完美融合。
 3. 自带mysql和sqlite支持。
+
+```
+nodejs(async function(){
+    let os=require("os");
+    let net=os.networkInterfaces();
+    let cpu=os.cpus();
+    return {"网卡":net,"处理器":cpu};
+}).then(res=>{
+    console.log("res", res);
+});
+```
 ```
 //去除窗口标题和最大最小化按钮
 xcall(`setWinMode(10)`);
