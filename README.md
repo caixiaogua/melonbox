@@ -2,6 +2,14 @@
 
 ### 用于创建基于html5的桌面应用，类似于electron，但是体积更小巧，打包应用不到10兆，支持win7系统。
 
+#### melonbox目前有四个版本：
+```
+melonbox-max  （内置go语言支持）
+melonbox-pro  （内置nodejs支持）
+melonbox-plus  （支持js代码和静态资源打包）
+melonbox-lite  （支持dotnet扩展，js可直接调用C#编译的DLL）
+```
+
 #### 下载地址：https://github.com/caixiaogua/melonbox/releases
 
 ### melonbox-max说明：
