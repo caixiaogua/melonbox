@@ -4,10 +4,10 @@
 
 #### melonbox目前有四个版本：
 ```
-melonbox-max  （内置go语言支持）
-melonbox-pro  （内置nodejs支持）
-melonbox-plus  （支持js代码和静态资源打包）
-melonbox-lite  （支持dotnet扩展，js可直接调用C#编译的DLL）
+melonbox-pro  （内置nodejs支持，开发语言js）
+melonbox-max  （内置go语言支持，支持js和go混合代码，开发语言js+go）
+melonbox-plus  （支持js代码和静态资源打包，开发语言js+go）
+melonbox-lite  （支持dotnet扩展，js可直接调用C#编译的DLL，开发语言js+C#）
 ```
 
 #### 下载地址：https://github.com/caixiaogua/melonbox/releases
