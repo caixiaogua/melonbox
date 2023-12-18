@@ -90,6 +90,6 @@ jsgo buildx app.js
 ```
 #### plus版可打包静态资源文件夹（详细使用说明请参考jsgo6.1更新日志）
 ```
-//例如打包css文件夹，生成css.pkg文件
-jsgo pack css
+//例如打包static文件夹，生成static.pkg文件
+jsgo pack static
 ```
