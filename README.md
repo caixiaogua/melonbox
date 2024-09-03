@@ -63,6 +63,12 @@ xcall(`setTitle("标题")`);
 xcall(`setMinBtn(false)`);
 //单独禁用最大化按钮
 xcall(`setMaxBtn(false)`);
+//切换到最小化
+xcall(`melonbox.hitMin()`);
+//切换到最大化
+xcall(`melonbox.hitMax()`);
+//关闭窗口
+xcall(`melonbox.hitClose()`);
 ```
 
 ### melonbox-lite说明：
