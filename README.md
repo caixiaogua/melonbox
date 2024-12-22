@@ -1,4 +1,4 @@
-# melonbox（原melonUI）
+# melonbox
 
 ### 用于创建基于html5的桌面应用，类似于electron，但是体积更小巧，打包应用不到10兆，支持win7系统。
 
