@@ -12,6 +12,25 @@ melonbox-lite  （支持dotnet扩展，js可直接调用C#编译的DLL，开发�
 
 #### 下载地址：https://github.com/caixiaogua/melonbox/releases
 
+### melonbox-mini说明：
+1. net.cs为C#编写的js扩展库，可以自己修改，执行buildcs.bat编译为net.dll
+2. index.html中的js可以直接调用net.dll中的类和方法
+```
+//调用dll扩展范例：
+//index.html
+<script>
+// 调用net.dll文件中的方法
+xcall('net.Math.Add(44,55)').then(res=>{
+    res='通过net.dll扩展类计算的结果: 44+55='+res;
+    h2div.innerHTML=res;
+    // alert(res);
+});
+xcall('net.FS.GetFiles(".")').then(res=>{
+    h3div.innerHTML+=res+"<br>";
+});
+</script>
+```
+
 ### melonbox-max说明：
 1. 更丰富更强大的api接口函数。
 2. 可以在html中执行go语言代码。
