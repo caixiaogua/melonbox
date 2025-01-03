@@ -24,7 +24,6 @@ melonbox-lite  （支持dotnet扩展，js可直接调用C#编译的DLL，开发�
 xcall('net.Math.Add(44,55)').then(res=>{
     res='通过net.dll扩展类计算的结果: 44+55='+res;
     h2div.innerHTML=res;
-    // alert(res);
 });
 xcall('net.FS.GetFiles(".")').then(res=>{
     h3div.innerHTML+=res+"<br>";
