@@ -16,6 +16,7 @@ melonbox-lite  （支持dotnet扩展，js可直接调用C#编译的DLL，开发�
 1. net.cs为C#编写的js扩展库，可以自己修改，执行buildcs.bat编译为net.dll
 2. index.html中的js可以直接调用net.dll中的类和方法
 3. 读写文件可以使用内置的readFile和saveFile函数，也可使用net.dll中的扩展方法
+4. 开发一个桌面应用仅3兆，性能好，效率高，成本低。
 ```
 //调用dll扩展范例：
 //index.html
