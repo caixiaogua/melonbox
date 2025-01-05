@@ -30,6 +30,12 @@ xcall('net.Math.Add(44,55)').then(res=>{
 xcall('net.FS.GetFiles(".")').then(res=>{
     h3div.innerHTML+=res+"<br>";
 });
+// 操作sqlite数据库
+sqlite_init("test.db").then(async db=>{
+        let res=await sqlite_query("select * from users order by id desc limit 3");
+        h4div.innerHTML="<h3>来自sqlite数据库的数据</h3>";
+        h4div.innerHTML+=res.map(x=>JSON.stringify(x)).join("<br>");
+});
 </script>
 ```
 
